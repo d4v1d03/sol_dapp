@@ -22,7 +22,7 @@ function MintToken() {
     
     const fromWallet = Keypair.generate();
     // Public Key to your Phantom Wallet
-    const toWallet = new PublicKey("INSERT YOUR PUBLIC KEY HERE");
+    const toWallet = new PublicKey("7c2TNg59e4BNSrAQto3ex4GevgKxfxJDzJXWmpHdttcu");
 	let fromTokenAccount: Account; 
 	let mint: PublicKey;
 
